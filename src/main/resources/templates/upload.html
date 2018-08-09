@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        label {
+            margin: 10px;
+        }
+
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>file upload example</h1>
+<form action="/" method="POST" enctype="multipart/form-data">
+    <label>FileID:</label> <input type="text" name="fileid"/>
+    <br/>
+    <label>Description:</label> <input type="text" name="description"/>
+    <br/>
+    <label>Select a file:</label> <input type="file" name="thefile"/>
+    <br/>
+    <input type="submit" name="submit" value="submit"/>
+</form>
+</body>
+</html>

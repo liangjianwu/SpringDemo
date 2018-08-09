@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+<h1>Upload Status</h1>
+
+<div th:if="${message}">
+    <h2>Message:</h2>
+    <p th:text="${message}"/>
+</div>
+
+<div th:if="${fileid}">
+    <h2>FileID:</h2>
+    <p th:text="${fileid}"/>
+</div>
+<div th:if="${description}">
+    <h2>Description:</h2>
+    <p th:text="${description}"/>
+</div>
+<div th:if="${file}">
+    <h2>Content:</h2>
+    <p th:text="${file}"/>
+</div>
+
+</body>
+</html>
